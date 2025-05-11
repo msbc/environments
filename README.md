@@ -7,7 +7,7 @@ This repository contains information and resources for managing and configuring 
 ## Getting Started
 1. Clone the repository:
   ```bash
-  git clone <repository-url>
+  git clone https://github.com/msbc/environments.git
   ```
 2. Set up environment:
   ```bash
