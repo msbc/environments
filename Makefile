@@ -21,6 +21,7 @@ $(ENVS): $(wildcard %/requirements.txt) $(wildcard %/pyproject.toml)
 		uv pip install --editable .; \
 	else \
 		echo "No requirements.txt or pyproject.toml found in $@"; \
+		exit 1; \
 	fi
 
 # For debugging variables in Makefile, e.g. by "make print-PYTHON_INCLUDES"
