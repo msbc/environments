@@ -1,5 +1,7 @@
 # README
 
+Note: This project is a work in progress.
+
 ## Project Overview
 This repository contains information and resources for managing and configuring Python development environments using [UV](https://github.com/astral-sh/uv). It serves as a central hub for environment setup, tools, and best practices.
 
