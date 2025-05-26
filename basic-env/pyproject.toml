@@ -1,0 +1,26 @@
+[project]
+name = "basic-env"
+description = "Basic environment"
+authors = [{ name = "Matthew S. B. Coleman", email = "msbc@princeton.edu" }]
+maintainers = [{ name = "Matthew S. B. Coleman", email = "msbc@princeton.edu" }]
+dynamic = ["version"]
+requires-python = ">=3.10"
+dependencies = [
+  "cmasher",
+  "cmcrameri",
+  "cmocean",
+  "h5py",
+  "humanize",
+  "jupyter",
+  "jupyterthemes",
+  "matplotlib",
+  "numpy",
+  "pytz",
+  "ruff",
+  "scipy",
+  "seaborn",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
