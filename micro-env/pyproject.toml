@@ -1,0 +1,12 @@
+[project]
+name = "micro-env"
+description = "Default working environment"
+authors = [{ name = "Matthew S. B. Coleman", email = "msbc@princeton.edu" }]
+maintainers = [{ name = "Matthew S. B. Coleman", email = "msbc@princeton.edu" }]
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = ["network", "mpremote", "esptool"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
